@@ -1,0 +1,23 @@
+body {
+	padding: 2em;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 2em;
+}
+main {
+	flex: 1 1 auto;
+}
+#log {
+	flex: 0 0 50vw;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	overflow: auto;
+	letter-spacing: 1px;
+	font-family: monospace;
+}
+#log::before {
+	content: "Output:";
+	display: block;
+}
