@@ -1,7 +1,15 @@
 // Finish the program
-function roll(sideCount) {
-	return 0
+// If you want the option in your roll write the string 'advantage' or 'disadvantage' when calling the function.
+function roll(sideCount, option) {
+
+    // Defined a function who will stock the randome roll of dice, the +1 avoid the randome number to be 0
+    const roll =()=> Math.floor(Math.random()*sideCount)+1;
+
+	return roll(sideCount)
 }
+
+// Exportation for the testing
+module.exports = roll;
 
 // output test
 const log = (msg) => {
