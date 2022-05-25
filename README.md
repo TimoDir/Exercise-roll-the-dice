@@ -4,3 +4,6 @@ For our new RPG game, we will need to generate random numbers by rolling N-sided
 
 ## BONUS TASK: 
 In addition, sometimes we want the player to roll with advantage or disadvantage. Advantage means we roll two times and return the higher result of the two. Disadvantage means we roll two times and return the lower result of the two.
+
+### Testing unit with Mocha
+I test 100 time each option in my testing unit using Mocha. (try the test in the terminal with npm test ) 
